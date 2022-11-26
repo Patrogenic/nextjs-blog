@@ -1,0 +1,13 @@
+It's important to serve static content in a static fashion so that search engines can index the information easier and it can be served faster
+
+If we want to populate a home page with blog post data, we can also load the page in a static fashion
+
+But for content like a user dashboard, server side rendering and client side rendering both seem to be valid options
+
+
+If a static page requires authentication, then what do we do?
+-probably just have to check for authentication first (validating a token on page load)
+
+API stuff:
+-it seems like only files in the pages/api directory will  be serverless functions
+-but the code used to write to files is also considered back end code...
